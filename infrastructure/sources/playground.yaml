@@ -6,7 +6,7 @@ metadata:
   namespace: default
 spec:
   interval: 5m0s
-  url: oci://acrplaygroundor3l3t.azurecr.io/charts
+  url: oci://acrplayground8mpz04.azurecr.io/charts
   type: "oci"
 #  secretRef:
 #    name: regcred
