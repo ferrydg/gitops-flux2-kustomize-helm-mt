@@ -1,17 +1,17 @@
 apiVersion: helm.toolkit.fluxcd.io/v2beta1
 kind: HelmRelease
 metadata:
-  name: podinfo
+  name: laravel
   namespace: cluster-config
 spec:
-  targetNamespace: podinfo
-  releaseName: podinfo
+  targetNamespace: laravel
+  releaseName: laravel
   chart:
     spec:
-      chart: podinfo
+      chart: laravel
       sourceRef:
         kind: HelmRepository
-        name: podinfo
+        name: playground
         namespace: cluster-config
   interval: 5m
   install:
