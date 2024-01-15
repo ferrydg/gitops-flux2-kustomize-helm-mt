@@ -8,7 +8,7 @@ spec:
   releaseName: laravel
   chart:
     spec:
-      chart: laravel
+      chart: charts/laravel
       sourceRef:
         kind: HelmRepository
         name: playground
