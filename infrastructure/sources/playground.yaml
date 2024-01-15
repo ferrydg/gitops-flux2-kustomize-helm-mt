@@ -9,4 +9,4 @@ spec:
   url: oci://acrplayground8mpz04.azurecr.io/charts
   type: "oci"
   secretRef:
-    name: regcred
+    name: "default/regcred"
